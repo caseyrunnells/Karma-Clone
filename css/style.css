@@ -70,3 +70,30 @@ ol, ul {
 
 }
 
+/* Introduction Section*/
+
+section {
+  display: block;
+}
+
+.introduction {
+  background-image: url('../img/first-background copy.jpg');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45.938rem;
+  overflow: auto;
+}
+
+.introduction > .content {
+  padding: 0 0.938rem;
+  margin: 0 auto;
+  min-width: 37.5rem;
+}
+
+.introduction .buttons {
+  color: white;
+  text-align: center;
+  margin-top: 1.563rem;
+}
+
