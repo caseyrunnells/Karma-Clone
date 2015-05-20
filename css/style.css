@@ -5,6 +5,11 @@ body {
   border: 1px solid Chocolate;
 }*/
 
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Navigation Section*/
 .top-navigation {
   background-color: #fff;
   position: fixed;
@@ -14,7 +19,12 @@ body {
 }
 
 .top-navigation > .content {
-  height: 4.375rem;
+  width: 970px;
+  min-width: 37.5rem;
+  height: 70px;
+  margin: 0 auto;
+  padding: 0px 15px;
+
 }
 
 .top-navigation .logo {
@@ -52,5 +62,9 @@ ol, ul {
   padding: 0 0.938rem;
   margin: 0 auto;
   min-width: 37.5rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #838994;
+  letter-spacing: 0.03em;
 }
 
